@@ -2,9 +2,9 @@
 	var radius = document.getElementById('radius').value;
 	radius = Math.abs(radius);
 	var volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
-	
+		 volume = volume.toFixed(5);
 	 document.getElementById('volume').value = volume;
-	 volume = volume.toFixed(5);
+
 	return false;
 }
 
